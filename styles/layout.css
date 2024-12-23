@@ -1,0 +1,15 @@
+/* Main layout styles */
+main {
+    margin-top: 60px;
+}
+
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}

@@ -1,0 +1,91 @@
+/* Main styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D6D6D6;
+}
+
+/* Main content */
+.main-content {
+    margin-top: 80px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    background-color: #4F4F51;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #D6D6D6;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #F58F7C;
+}
+
+.profile-info h1 {
+    color: #F2C4CE;
+    margin-bottom: 10px;
+}
+
+.tech-stack {
+    background-color: #4F4F51;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #D6D6D6;
+}
+
+.tech-item {
+    background: #2C2B30;
+    color: #F2C4CE;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px;
+}
+
+section {
+    background-color: #4F4F51;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    color: #D6D6D6;
+}
+
+h2 {
+    color: #F2C4CE;
+    margin-bottom: 1.5rem;
+}
+
+/* About list styles */
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.about-list li {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.about-list li::before {
+    content: "•";
+    color: #F58F7C;
+    position: absolute;
+    left: 0.5rem;
+    font-size: 1.5rem;
+}

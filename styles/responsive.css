@@ -1,0 +1,19 @@
+/* Responsive design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .subtitle {
+        font-size: 1.2rem;
+    }
+    
+    nav a {
+        display: inline-block;
+        margin: 0.25rem;
+    }
+    
+    section {
+        padding: 2rem 1rem;
+    }
+}
