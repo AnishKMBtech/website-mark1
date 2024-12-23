@@ -8,13 +8,13 @@ function checkAuth() {
 // Logout function
 function logout() {
     sessionStorage.removeItem('isLoggedIn');
-    window.location.href = 'login.html';
+    window.location.href = 'logout-success.html'; // Redirect to the new logout success page
 }
 
 // Add logout button to the page
 function addLogoutButton() {
     const logoutBtn = document.createElement('button');
-    logoutBtn.textContent = 'Logout';
+    logoutBtn.textContent = 'Eject'; // Change the button text to "Eject"
     logoutBtn.style.position = 'fixed';
     logoutBtn.style.top = '10px';
     logoutBtn.style.right = '10px';
