@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizing - My Hobby</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/hobby-detail.css">
+</head>
+<body>
+    <script src="auth.js"></script>
+    <script>
+        checkAuth();
+        addLogoutButton();
+    </script>
+
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="hobbies.html">Hobbies</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <a href="hobbies.html" class="back-link">← Back to Hobbies</a>
+        
+        <div class="hobby-detail">
+            <div class="hobby-header">
+                <h1>Customizing</h1>
+            </div>
+            
+            <img src="assets/arch.jpg" alt="Customizing" class="hobby-image">
+            
+            <div class="hobby-description">
+                <p>Ah, Arch ricing—the ultimate test of patience and attention to detail. I love spending hours tweaking every little aspect of my system, because who doesn't want their terminal to look like a work of art? It all started with modding games and apps, and now these customizations are the dose for my creativity. I like to detail things to the point where even my keyboard shortcuts are a masterpiece.</p>
+                
+                <h2>What I Customize</h2>
+                <ul class="hobby-list">
+                    <li>Development Environment (VS Code, Vim)</li>
+                    <li>Operating System Themes</li>
+                    <li>Terminal Setup</li>
+                    <li>Keyboard Shortcuts</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

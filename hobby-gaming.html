@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming - My Hobby</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/hobby-detail.css">
+    <style>
+        .sub-images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .sub-image-container {
+            text-align: center;
+        }
+        .sub-image {
+            width: 100%;
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Maintain aspect ratio and cover the area */
+        }
+        .sub-image-caption {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script src="auth.js"></script>
+    <script>
+        checkAuth();
+        addLogoutButton();
+    </script>
+
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="hobbies.html">Hobbies</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <a href="hobbies.html" class="back-link">← Back to Hobbies</a>
+        
+        <div class="hobby-detail">
+            <div class="hobby-header">
+                <h1>Gaming</h1>
+            </div>
+            
+            <!-- Main Image -->
+            <img src="assets/AIDEN.PNG" alt="Gaming" class="hobby-image">
+            
+            <div class="hobby-description">
+                <p>Gaming is more than just entertainment—it's a way to develop problem-solving skills and strategic thinking. As a former gamer of the popular series like call of duty, battle field, Assassins creed, simracing, Rockstar games, TOMCLANCY ,and other indie games , I learned a lot and  my thinking abilities got more sharper. [Fun fact I play only sniper mostly]</p>
+                
+                <h2>Favorite Games</h2>
+                <ul class="hobby-list">
+                    <li>SIMULATION</li>
+                    <li>RPGs/OPENWORLD</li>
+                    <li>ADVENTURE</li>
+                    <li>FPS/ACTION/SNIPER</li>
+                </ul>
+            </div>
+            
+            <!-- Sub Images -->
+            <div class="sub-images">
+                <div class="sub-image-container">
+                    <img src="assets/COD.png" alt="Game 2" class="sub-image">
+                    <div class="sub-image-caption">CALL OF DUTY</div>
+                </div>
+                <div class="sub-image-container">
+                    <img src="assets/ASSASSINS.JPG" alt="Game 3" class="sub-image">
+                    <div class="sub-image-caption">ASSASSIN'S CREED</div>
+                </div>
+                <div class="sub-image-container">
+                    <img src="assets/simracing.png" alt="Game 4" class="sub-image">
+                    <div class="sub-image-caption">RACING SIMULATION</div>
+                </div>
+                <div class="sub-image-container">
+                    <img src="assets/ROCKSTAR.jpg" alt="Game 5" class="sub-image">
+                    <div class="sub-image-caption">GAME SERIES FROM ROCKSTAR GAMES</div>
+                </div>
+                <div class="sub-image-container">
+                    <img src="assets/BATTLEFIELD.jpg" alt="Game 6" class="sub-image">
+                    <div class="sub-image-caption">BATTLEFIELD</div>
+                </div>
+                <div class="sub-image-container">
+                    <img src="assets/NFS.png" alt="Game 7" class="sub-image">
+                    <div class="sub-image-caption">IYKYK</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

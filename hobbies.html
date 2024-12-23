@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/hobbies.css">
+    <style>
+        .hobby-card img {
+            width: 100%;
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Maintain aspect ratio and cover the area */
+        }
+    </style>
+</head>
+<body>
+    <script src="auth.js"></script>
+    <script>
+        checkAuth();
+        addLogoutButton();
+    </script>
+
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="hobbies.html">Hobbies</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h1 style="color: #2C2B30; margin-bottom: 2rem;">My Hobbies</h1>
+        
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <img src="assets/jc.jpg" alt="Gaming">
+                <div class="hobby-content">
+                    <h3>Gaming</h3>
+                    <p>Passionate about gaming, especially strategy and RPG games.</p>
+                    <a href="hobby-gaming.html" class="hobby-link">Learn More</a>
+                </div>
+            </div>
+
+            <div class="hobby-card">
+                <img src="assets\IT-securiyt-memes.jpg" alt="Security and Embedded Technologies">
+                <div class="hobby-content">
+                    <h3>Security and Embedded Technologies</h3>
+                    <p>Exploring security protocols and working with embedded systems.</p>
+                    <a href="hobby-security.html" class="hobby-link">Learn More</a>
+                </div>
+            </div>
+
+            <div class="hobby-card">
+                <img src="assets\weeknd1.jpg" alt="Music">
+                <div class="hobby-content">
+                    <h3>Music</h3>
+                    <p>Enjoying various genres and creating playlists.</p>
+                    <a href="hobby-music.html" class="hobby-link">Learn More</a>
+                </div>
+            </div>
+
+            <div class="hobby-card">
+                <img src="assets/arch1.jpg" alt="Customizing">
+                <div class="hobby-content">
+                    <h3>Customizing</h3>
+                    <p>Personalizing and modifying software to suit my needs.</p>
+                    <a href="hobby-customizing.html" class="hobby-link">Learn More</a>
+                </div>
+            </div>
+
+            <div class="hobby-card">
+                <img src="assets\pawn-sacrifice.jpg" alt="Movies">
+                <div class="hobby-content">
+                    <h3>Movies</h3>
+                    <p>Exploring different genres and storytelling through film.</p>
+                    <a href="hobby-movies.html" class="hobby-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
